@@ -5,6 +5,6 @@ class StringUtils {
     }
 }
 
-echo StringUtils::concatenate("Hello"); // Output: Warning: Missing argument 2 for StringUtils::concatenate()
+echo StringUtils::concatenate("Hello", "World"); // Output: Warning: Missing argument 2 for StringUtils::concatenate()
 
 ?>

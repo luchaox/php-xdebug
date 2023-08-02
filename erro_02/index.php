@@ -1,6 +1,7 @@
 <?php 
 class Person {
     private $name;
+    private $age;
 
     public function setName($name) {
         $this->name = $name;
